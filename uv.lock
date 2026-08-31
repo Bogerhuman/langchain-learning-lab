@@ -945,6 +945,7 @@ dependencies = [
     { name = "dashscope" },
     { name = "langchain" },
     { name = "langchain-community" },
+    { name = "langchain-core" },
     { name = "langchain-deepseek" },
     { name = "langchain-text-splitters" },
 ]
@@ -959,6 +960,7 @@ requires-dist = [
     { name = "dashscope", specifier = ">=1.25,<2.0" },
     { name = "langchain", specifier = ">=1.0,<2.0" },
     { name = "langchain-community", specifier = ">=0.4,<1.0" },
+    { name = "langchain-core", specifier = ">=1.6.1" },
     { name = "langchain-deepseek", specifier = ">=1.0,<2.0" },
     { name = "langchain-text-splitters", specifier = ">=1.0,<2.0" },
 ]
