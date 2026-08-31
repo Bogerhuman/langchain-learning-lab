@@ -1,0 +1,26 @@
+[project]
+name = "langchain-learning-lab"
+version = "0.1.0"
+description = "Task 1 lab for understanding LangChain's core abstractions"
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "dashscope>=1.25,<2.0",
+    "langchain>=1.0,<2.0",
+    "langchain-community>=0.4,<1.0",
+    "langchain-deepseek>=1.0,<2.0",
+    "langchain-text-splitters>=1.0,<2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8,<10",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
