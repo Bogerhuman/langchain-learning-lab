@@ -28,6 +28,8 @@ Python：3.11–3.14
 | Task 6 | 工程化 Agent | Structured Output、Middleware、Retry、Fallback、Limits、HITL |
 | Capstone | 智能订单客服 | RAG、Tools、Memory、审批、结构化交付与离线测试的完整组合 |
 
+### GPT对话记录
+https://chatgpt.com/s/cx_6a95849747a88191a92a771d7862315c
 ## 综合实战
 
 `order_support_capstone` 实现了一个教学用订单客服 Agent：
